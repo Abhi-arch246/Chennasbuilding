@@ -1,0 +1,30 @@
+body{
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2rem;
+}
+
+li {
+  padding-left: 50px;
+}
+
+h3{
+  font-weight: bold;
+  margin:10px;;
+}
+.box{
+  margin: 20px auto;
+  border: #000 solid 5px;
+  border-radius: 25px;
+  align-items: flex-end;
+}
+
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img{
+  padding: 5px;
+  transition: 1s;
+}
+.gallery img:hover{
+  transform: scale(1.1);
+}

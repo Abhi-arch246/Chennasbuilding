@@ -1,0 +1,46 @@
+section {
+  padding: 60px 0;
+}
+body{
+  font-weight: 'Roboto',sans-serif;
+  font-size: 1.1rem;
+  overflow-x: hidden;
+}
+.card-size{
+  width: 1100px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+.card-group{
+  margin: auto;
+}
+
+.logo{
+  margin-top: 5px;
+  margin-left:15px;
+}
+
+li {
+  padding-left: 50px;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.margin {
+  margin-top: 10px;
+}
+
+.bg-overlay {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 580px;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1567416592215-fb3c07cfb7c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80");
+}
